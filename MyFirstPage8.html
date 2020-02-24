@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head> 
+		<meta charset="utf-8" /> 
+		<meta name="description" content="A web page" /> 
+		<meta name="keywords" content="Lesson, HTML, Web" />
+		<meta name="author" content="John Doe" />
+		<title>Web development</title>  
+	</head>
+
+	<body>
+		<a name="top"></a>
+
+		<h1>HTML Exercises</h1>
+
+			<h2>Exo 1: Display "Hello World" at the screen</h2>
+				<p>Hello World</p> 
+
+
+
+
+
+
+
+
+
+
+			<h2>Exo 2: Display "Hello World" in blue</h2>
+				<p><font color="blue">"Hello World"</font></p>
+
+
+
+
+
+
+
+
+
+			<h2>Exo 3: Display all numbers from 1 to 7 in bold, with each number in a different color of the rainbow</h2>
+				<p><b>	<font color="purple">	1</font>
+						<font color="indigo">	2</font>
+						<font color="blue">		3</font>
+						<font color="green">	4</font>
+						<font color="yellow">	5</font>
+						<font color="orange">	6</font>
+						<font color="red">		7</font>
+				</b></p>
+
+
+
+
+
+
+
+
+			<h2>Exo 4: Display "Hello World" with Arial font</h2>
+				<p><font face="Arial">"Hello World"</font></p>
+
+
+
+
+
+
+
+
+
+
+
+			<h2>Exo 5: Change font corresponding to the text</h2>
+				<p>"<font face="Courier New">("Courier New") Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</font><font face="Times New Roman"> ("Times New Roman") Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</font><font face="Georgia">("Georgia") Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</font><font face="Helvetica">("Helvetica") Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</font>"</p>
+
+			<h2>Exo 6: Change style corresponding to the text</h2>
+				<p>"Lorem ipsum dolor sit amet, consectetur <u> (underline) adipiscing elit</u>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <b>(bold) quis nostrud exercitation</b> ullamco laboris nisi ut aliquip ex ea commodo consequat. <u><b>(underline+bold) Duis aute irure dolor in reprehenderit in voluptate</u></b> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <i>(italic) occaecat cupidatat non proident</i>, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+
+
+
+			<h2>Exo 7: Some maths</h2>
+				<p>7<sup>3</sup> = 343</p>
+				<p>X<sub>n+1</sub> = 42</p>
+
+
+
+
+
+
+
+
+
+
+			<h2>Exo 8: Hierarchy</h2>
+				<h3>In this lesson we learn:</h3>
+					<ol type="I">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ol>
+
+
+
+					
+				<h3>Tools</h3>
+					<ul>
+						<li>Slides</li>
+						<li>Text editor</li>
+						<li>Web browser</li>
+						<li>Note book</li>
+					</ul>
+
+
+
+
+			<h2>Exo 9: Some coding in my page</h2>
+				<p>here is an example of a for loop in Python:</p>
+				<pre>
+myList = ["a", "b", "c", "d"]
+for i in myList:
+	print(i)
+				</pre>
+
+
+
+
+
+
+
+			<h2>Exo 10: Link to my favorite web browsers</h2>
+				<p>Search with <a href="http://www.google.fr">Google</a></p>
+				<p>Search with <a href="http://www.bing.com">Bing</a></p>
+				<p>Search with <a href="http://www.ecosia.org">Ecosia</a></p>
+
+
+
+
+
+
+
+
+			<h2>Exo 11: Organazing my page</h2>
+				<p><a href="#top">Click here to go to the top of the page</a></p>
+				<p><a href="#bottom">Click here to go to the botton of the page</a></p>
+
+
+
+
+
+
+
+
+
+
+			<h2>Exo 12: What a beautiful image !</h2>
+				<img src="../Images/pingouin.jpeg" alt="Pingouin Linux Apple Windows"/>
+
+
+
+
+
+
+
+
+
+
+
+			<h2>Exo 13: What a beautiful framed image !</h2>
+				<p>Size of the image: (WxH) 300x400 with 2 pixels border.</p>
+				<img src="pingouin.jpeg" alt="Pingouin Linux Apple Windows" width="300" height="400" border="2"/>
+
+
+
+
+
+
+
+
+
+			<h2>Exo 14: My image is hides a link</h2>
+				<p>Click on the image to open a new tab on Linux website:</p>
+				<a href="https://www.linux.org" target="_blank">
+					<img src="pingouin.jpeg" alt="Pingouin Linux Apple Windows"/>
+				</a>
+
+
+
+
+
+
+
+
+
+			<h2>Exo 15: My image has its own page</h2>
+				<p>Click on the image to open the new tab:</p>
+				<a href="pingouin.jpeg" target="_blank">
+					<img src="pingouin.jpeg" alt="Pingouin Linux Apple Windows"/>
+				</a>
+
+
+
+
+
+
+
+
+			<h2>Exo 16: Article submission form</h2>
+				<form method="post">
+					<p>Please follow the next steps to submit your article in our famous journal.</p>
+					<p>Mandatory fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+					<section>
+						<h3>Contact informations</h3>
+						<fieldset>
+							<legend>Quality</legend>
+							<ul>
+								<li>
+									<label for="title_1">
+										<input type="radio" id="title_1" name="title" value="Mme." > Mrs.
+									</label>
+							  	</li>
+							  	<li>
+									<label for="title_2">
+								  		<input type="radio" id="title_2" name="title" value="M."> Mr.
+									</label>
+							  	</li>
+							  	<li>
+									<label for="title_3">
+								  		<input type="radio" id="title_3" name="title" value="Dr."> Dr.
+									</label>
+							  	</li>
+							  	<li>
+									<label for="title_4">
+								  		<input type="radio" id="title_4" name="title" value="Pr."> Prof.
+									</label>
+							  	</li>
+						  	</ul>
+						</fieldset>
+						<p>
+
+
+
+
+
+
+						  	<label for="name">
+								<span>Name: </span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+						  	<input type="text" id="name" name="username">
+						</p>
+						<p>
+						  	<label for="mail">
+								<span>E-mail: </span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+						  	<input type="email" id="mail" name="usermail">
+						</p>
+						<p>
+						  	<label for="pwd">
+								<span>Password: </span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+						  	<input type="password" id="pwd" name="password">
+						</p>
+					</section>
+
+
+
+
+					<section>
+						<h3>Your article</h3>
+						<p><label for="name">
+								<span>Title: </span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+						</p>
+						<p>
+						  	<textarea cols="50" rows="5" maxlength="50" placeholder="Title of your article (50 characters max.)"></textarea>
+						</p>
+						<p>
+						  	<label for="mail">
+								<span>Abstract: </span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+						</p>
+						<p>
+						  	<textarea cols="50" rows="10" maxlength="500" placeholder="Abstract of the article (500 characters max.)"></textarea>
+						</p>
+						<p>
+						  	<label for="pwd">
+								<span>Reviewers: </span>
+								<strong><abbr title="required">*</abbr></strong>
+								<em>Please select at least one reviewer (Reviewer 1 selected by default).</em>
+						  	</label>
+						</p>
+						<p>
+						  	<input type="checkbox" id="rev1" name="rev1" value="Reviewer 1" checked>
+						  	<label for="rev1">Reviewer 1</label>
+						  	<input type="checkbox" id="rev2" name="rev2" value="Reviewer 2">
+						  	<label for="rev2">Reviewer 2</label>
+						  	<input type="checkbox" id="rev3" name="rev3" value="Reviewer 3">
+						  	<label for="rev3">Reviewer 3</label>
+						</p>
+					</section>
+					<section>
+						<h3>Payment</h3>
+						<p>
+						  	<label for="card">
+								<span>Card:</span>
+						  	</label>
+						 	<select id="card" name="usercard">
+								<option value="visa">Visa</option>
+								<option value="mc">Mastercard</option>
+								<option value="amex">American Express</option>
+						  	</select>
+						</p>
+						<p>
+						  	<label for="number">
+								<span>Card number:</span>
+								<strong><abbr title="required">*</abbr></strong>
+						  	</label>
+								<input type="text" id="number" name="cardnumber">
+						</p>
+						<p>
+						  	<label for="date">
+								<span>Expiration date:</span>
+								<strong><abbr title="required">*</abbr></strong>
+								<em>MM/AA</em>
+						  </label>
+						  <input type="text" id="date" name="expiration">
+						</p>
+					</section>
+					<section>
+						<p> <button type="submit">Validate the submission</button> </p>
+					</section>
+				</form>
+
+			<a name="bottom">Botton of the webpage for exo 11</a>
+	</body>
+
+</html>
+
+
+
+
+
+ 
